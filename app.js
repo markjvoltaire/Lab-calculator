@@ -13,9 +13,9 @@ const getAnswer = document.getElementById('answer');
 addButton.addEventListener('click', ()=>{
     const add1 = Number(nom1.value);
     const add2 = Number(nom2.value);
-    const getAnswer = add(add1, add2);
-  
-  
+    const result = add(add1, add2);
+    
+    getAnswer.textContent = result;
 });
 
 
