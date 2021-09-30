@@ -14,7 +14,7 @@ addButton.addEventListener('click', ()=>{
     const add1 = Number(nom1.value);
     const add2 = Number(nom2.value);
     const getAnswer = add(add1, add2);
-    console.log(getAnswer);
+  
   
 });
 
