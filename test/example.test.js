@@ -1,6 +1,6 @@
 // IMPORT MODULES under test here:
 import { add, mul } from '../calculations.js';
-import { sub } from '../calculations.js';
+import { sub, div } from '../calculations.js';
 
 
 
@@ -49,6 +49,16 @@ test('mul', (expect) => {
     const mul2 = 5;
     const expected = 25;
     const actual = mul(mul1, mul2);
+
+    expect.equal(actual, expected);
+});
+
+
+test('div', (expect) => {
+    const div1 = 10;
+    const div2 = 5;
+    const expected = 2;
+    const actual = div(div1, div2);
 
     expect.equal(actual, expected);
 });

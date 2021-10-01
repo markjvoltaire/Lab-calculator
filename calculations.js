@@ -10,3 +10,8 @@ export function sub(subNum1, subNum2) {
 export function mul(mulNum1, mulNum2){
     return mulNum1 * mulNum2;
 }
+
+export function div(divNum1, divNum2){
+    return divNum1 / divNum2;
+
+}
