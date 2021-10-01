@@ -1,5 +1,7 @@
 import { add } from './calculations.js';
 import { sub } from './calculations.js';
+import { mul } from './calculations.js';
+
 
 // import functions and grab DOM elements
 const nom1 = document.getElementById('num1');
@@ -11,6 +13,13 @@ const subNum1 = document.getElementById('subNum1');
 const subNum2 = document.getElementById('subNum2');
 const subButton = document.getElementById('subEqualButton');
 const getSubAnswer = document.getElementById('subAnswer');
+
+
+const multiNum1 = document.getElementById('mulNum1');
+const multiNum2 = document.getElementById('mulNum2');
+const mulButton = document.getElementById('mulEqualButton');
+const mulAnswer = document. getElementById('mulAnswer');
+
 
 
 // initialize global state
@@ -33,6 +42,18 @@ subButton.addEventListener('click', ()=>{
     getSubAnswer.textContent = subResult;
 
 });
+
+mulButton.addEventListener('click', ()=>{
+    const multiple1 = Number(multiNum1.value);
+    const multiple2 = Number(multiNum2.value);
+    const getMultiResult = mul(multiple1, multiple2);
+
+    mulAnswer.textContent = getMultiResult;
+
+});
+
+
+
 
 
 
