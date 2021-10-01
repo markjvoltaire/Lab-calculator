@@ -1,8 +1,30 @@
-body{
-    
+header{
+   color: cornsilk;
+   font-size: 50px;
+   font-family: 'Pacifico', cursive;
+   display: flex;
 }
 
-.inputs{
-   margin-left: 50px;
-   margin-top: 80px;
+
+
+
+body{
+   color: cornsilk;
+   background-image: url('/fallBackround2.jpeg');
+   display: grid;
+   font-size: 78px;
+
+   
+   margin-left: 600px;
 }
+
+.addInputs{
+   color: cornsilk;
+   
+}
+
+
+
+
+
+   

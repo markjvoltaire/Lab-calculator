@@ -12,10 +12,13 @@
     <title>Document</title>
 </head>
 
+
+<header id="heading" > Fall Calculator #</header>
+
 <body>
 
         
-    <div class="inputs">
+    <div class="addInputs">
         <input id="num1" type="text">
 
         +
@@ -23,8 +26,12 @@
       
         <span id="answer"></span>
         <button id='equalButton'> = </button>
+    </div>
 
 
+
+
+     <div id="subInputs">
         <input id="subNum1" type="text">
         -
         <input id="subNum2" type="text">
@@ -32,18 +39,33 @@
 
         <button id="subEqualButton" > = </button>
         <span id="subAnswer" ></span>
+        
+     </div>
 
 
-        <input  id="mulNum1" type="text">
+    <div id="mulInputs" >   
+    <input  id="mulNum1" type="text">
         *
         <input  id="mulNum2" type="text">
         <span id="mulAnswer" ></span>
         <button id="mulEqualButton" > = </button>
+    </div> 
 
-
-
-
+        
+    <div id="divInputs">
+    <input id="divNumb1" type="text">
+        /
+        <input id="divNumb2" type="text">
+        <span id="divAnswer"></span>
+        <button id="divEqualButton"> = </button>
     </div>
+    
+
+
+
+
+    
+    
     
 
 
@@ -60,6 +82,9 @@
 
     <script type="module" src="./app.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </body>
 
 </html>
