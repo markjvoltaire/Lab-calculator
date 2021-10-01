@@ -10,8 +10,8 @@ const test = QUnit.test;
 test('time to test a function', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const num1 = 2;
-    const num2 = 3;
+    
+   
     const expected = 5;
     
     //Act 
